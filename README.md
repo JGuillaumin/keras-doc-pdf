@@ -4,7 +4,23 @@ How to generate a PDF with all Keras (Deep Learning framework) documentation ?
 You will find in the **releases** pages different versions of the documentation (2.1.6, 2.1.0, ...)
 See: https://github.com/JGuillaumin/keras-doc-pdf/releases
 
-**Note** : the automatic build within the Docker image works only for `keras==2.1.6` !!
+**Note** : the automatic build within the Docker image works only for `2.1.6`, `2.0.0` !!
+
+Version | Release Files | Auto build with Docker
+--------| ------------- | ----------------------
+`2.1.6` | [Yes](https://github.com/JGuillaumin/keras-doc-pdf/releases/tag/keras-2.1.6)| Yes 
+`2.1.5` | No | No
+`2.1.4` | No | No
+`2.1.3` | No | No
+`2.1.2` | No | No
+`2.1.1` | No | No
+`2.1.0` | No | No
+`2.0.0` | [Yes](https://github.com/JGuillaumin/keras-doc-pdf/releases/tag/keras-2.0.0) | Yes
+`1.2.0` | No | No
+`1.1.0` | No | No
+
+In many versions of Keras, `pandoc` fails to preduce the PDF file !!
+Always looking for a bug fix .. (it comes from parsing errors in Latex ...)
 
 ## Step by step
 
